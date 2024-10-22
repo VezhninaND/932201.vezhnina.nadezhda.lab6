@@ -1,0 +1,49 @@
+body{
+	margin: 0px;
+	font-family: Arial;
+}
+div.button{
+	position: absolute;
+	display: block;
+	width: 333px;
+	background: red;
+	color: white;
+	border: 2px solid black;
+	text-align: center;
+	height: 32px;
+	padding-top: 8px;
+	font-size: 15pt;
+	cursor: pointer;
+}
+#middle{
+	margin-left: 333px;
+}
+#right{
+	margin-left: 666px;
+}
+div.main{
+	margin: auto;
+	width: 1003px;
+}
+#left-column{
+	padding-top: 65px;
+	text-align: center;
+	float: left;
+	background: blue;
+	width: 50%;
+	height: 520px;
+}
+#right-column{
+	padding-top: 65px;
+	text-align: center;
+	float: right;
+	background: green;
+	width: 50%;
+	height: 520px;
+}
+img{
+	width: 461px;
+	margin-left: 20px;
+	margin-right: 20px;
+	height: 400px;
+}
